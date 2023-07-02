@@ -1,0 +1,356 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="master page.master.cs" Inherits="Resort_Hindvi.master_page" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+ <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hindvi Resort</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+   
+
+</head>
+<body>
+    <form id="form1" runat="server">
+
+
+  <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="home.aspx">home</a></li>
+                                        <li><a href="rooms.aspx">rooms</a></li>
+                                        <li><a href="abouts.aspx">About</a></li>
+                                      
+                                         <li><a href="dining.aspx">dining</a></li>
+                                        <li><a href="contact us.aspx">Contact</a></li>
+                                       
+                                            <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="Gallery.aspx">Gallery</a></li>
+                                           
+                                                <li><a href="wedding venue.aspx">Wedding Venue</a></li>
+                                                <li><a href="activities.aspx">Activities</a></li>
+                                                
+                                            </ul>
+                                        </li>
+                                          <li><a href="packages.aspx">packages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="stay form.aspx">Stay Packages</a></li>
+                                                <li><a href="one day form.aspx">One Day Packages</a></li>
+                                                <li><a href="evening form.aspx">Evening Packages</a></li>
+                                                </ul>
+                                        </li>
+                                        
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="index.aspx">
+                                    <img src="img/2.png" width="100" class="text-right" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-4 d-none d-lg-block">
+                            <div class="book_room">
+                                <div class="socail_links">
+                                    <ul>
+                                        <li>
+                                            <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C589460569849%7Cb%7Cfacebook%20%27%7C&placement=&creative=589460569849&keyword=facebook%20%27&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3Db%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-327195741349%26loc_physical_ms%3D1007788%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMI-ejywp-9_QIVsINLBR3xCQJOEAAYASAAEgIS7vD_BwE">
+                                                <i class="fa fa-facebook-square"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.instagram.com/sem/campaign/emailsignup/?campaign_id=13530338610&extra_1=s|c|547419127631|e|instagram%20%27|&placement=&creative=547419127631&keyword=instagram%20%27&partner_id=googlesem&extra_2=campaignid%3D13530338610%26adgroupid%3D126262414014%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1321618851291%26loc_physical_ms%3D1007788%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=EAIaIQobChMIwdWQiqC9_QIVQyUrCh1mOQYTEAAYASAAEgIIF_D_BwE">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                              <!--  <div class="book_btn d-none d-lg-block">
+                                   <a class="popup-with-form" href="#test-form">Book A Room</a>-->
+                                  
+                                     <div class="col-sml-12">
+                                    <asp:DropDownList runat="server" class="form-select wide" ID="ddlTest1">
+                                     <asp:ListItem Text="Choose Your Packages"> </asp:ListItem>
+                                     <asp:ListItem  Value="one day form.aspx"><a href="one%20day%20form.aspx">One Day Package</a></asp:ListItem>
+                                        
+                                         <asp:ListItem  Value="stay form.aspx"><a href="stay%20form.aspx">Stay Package</a></asp:ListItem>
+
+                                         <asp:ListItem Value="evening form.aspx"><a href="evening%20form.aspx">Evening Package</a></asp:ListItem>
+                                        
+                                        
+
+                                        </asp:DropDownList>
+
+
+                                      
+                                    </div>
+                      
+
+
+                               </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                address
+                            </h3>
+                            <p class="footer_text"> Pune city, <br>
+                                Hindvi Resort</p>
+                            <a href="#" class="line-button">Get Direction</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Reservation
+                            </h3>
+                            <p class="footer_text">+91 367 267 2678 <br>
+                                reservation@Hindvi resort.com</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Navigation
+                            </h3>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Rooms</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Newsletter
+                            </h3>
+                            <form action="#" class="newsletter_form">
+                                <input type="text" placeholder="Enter your mail">
+                                <button type="submit">Sign Up</button>
+                            </form>
+                            <p class="newsletter_text">Subscribe newsletter to get updates</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-8 col-md-7 col-lg-9">
+                        <p class="copy_right">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                    <div class="col-xl-4 col-md-5 col-lg-3">
+                        <div class="socail_links">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- link that opens popup -->
+
+    <!-- form itself end-->
+       <form id="test-form" class="white-popup-block mfp-hide">
+                <div class="popup_box ">
+                        <div class="popup_inner">
+                            <h3>Check Availability</h3>
+                            <form action="#">
+                                <div class="row">
+                                    <div class="col-xl-6">
+                                        <input id="datepicker" placeholder="Check in date">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <input id="datepicker2" placeholder="Check out date">
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Adult">1</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Children">1</option>
+                                            <option value="1">2</option>
+                                            <option value="2">3</option>
+                                            <option value="3">4</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-6">
+                                        <select class="form-select wide" id="default-select" class="">
+                                            <option data-display="Room type">Room type</option>
+                                            <option value="1">Laxaries Rooms</option>
+                                            <option value="2">Deluxe Room</option>
+                                            <option value="3">Signature Room</option>
+                                            <option value="4">Couple Room</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-xl-6">
+                                     <asp:DropDownList runat="server" class="form-select wide" ID="DropDownList1">
+                                     <asp:ListItem Text="Choose Your Packages"> </asp:ListItem>
+                                     <asp:ListItem  Value="one day form.aspx"><a href="one%20day%20form.aspx">One Day Package</a></asp:ListItem>
+                                        
+                                         <asp:ListItem  Value="stay form.aspx"><a href="stay%20form.aspx">Stay Package</a></asp:ListItem>
+
+                                         <asp:ListItem Value="evening form.aspx"><a href="evening%20form.aspx">Evening Package</a></asp:ListItem>
+                                        
+                                        
+
+                                        </asp:DropDownList>
+                                    </div>
+                                         </div>
+                                
+                                    <div class="col-xl-12">
+                                        <button type="submit" class="boxed-btn3">Check Availability</button>
+                                    </div>
+                                    
+
+                              
+                            </form>
+                        </div>
+                    </div>
+            </form>
+    <!-- form itself end -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-caret-down"></span>'
+            }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-caret-down"></span>'
+            }
+
+        });
+    </script>
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
